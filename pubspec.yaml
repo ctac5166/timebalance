@@ -1,0 +1,87 @@
+name: timebalance
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animated_text_kit: ^4.2.2
+  audioplayers: ^6.0.0
+  auto_route: ^8.1.3
+  build_runner: ^2.4.9
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^17.1.2
+  flutter_riverpod: ^2.5.1
+  freezed: ^2.5.2
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  mesh_gradient: ^1.3.4
+  objectbox: ^2.5.1
+  objectbox_generator: ^2.5.1
+  themed: ^5.0.3
+  video_player: ^2.8.6
+  permission_handler: ^11.3.1
+  # awesome_notifications: ^0.9.3+1
+  # awesome_notifications_core: ^0.9.3
+  # just_audio: ^0.9.37
+  audio_session: ^0.1.19
+  # rxdart: ^0.27.7
+  audioplayers_android: ^5.0.0
+  # flutter_background: ^1.2.0
+  # flutter_background_service: ^5.0.5
+  logger: ^2.2.0
+  timezone: ^0.9.3
+  flutter_timezone: ^1.0.8
+  cached_network_image: ^3.3.1
+  introduction_screen: ^3.1.14
+  flutter_charts: ^0.5.2
+  fl_chart: ^0.68.0
+  animated_flip_counter: ^0.3.4
+  flutter_native_splash: ^2.4.0
+  animated_theme_switcher: ^2.0.10
+  numberpicker: ^2.1.2
+  # flutter_local_notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  objectbox_flutter_libs: ^2.5.1
+  auto_route_generator: ^8.0.0
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/
+    - assets/sounds/moondrop.mp3
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon-mini.png"
+  adaptive_icon_background: "#660000"
+  adaptive_icon_foreground: "assets/icon/icon-mini.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/icon-mini.png"
+    background_color: "#660000"
+    theme_color: "#FFFAFA"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon-mini.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon-mini.png"
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: 000000
